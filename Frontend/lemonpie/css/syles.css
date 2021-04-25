@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300&display=swap');
+
+body{
+    color: black;
+    font-family: 'Londrina Solid', cursive;
+    font-size: 16px;
+}
+
+h1{
+    font-size: 50px;
+}
+
+p{
+    font-size: 20px;
+}
+.fas{
+    color: chocolate;
+}
+
+.banner{
+    background-image: url(../img/lemon-pie2.jpg);
+    background-size: cover;
+    /* background-attachment: fixed;*/
+    height: 343px;
+    color: white;
+}
