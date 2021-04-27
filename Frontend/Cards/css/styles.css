@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+/* Te recomiendo que uses el selector universal para establecer que el navegador NO ponga su margin de 8px que tiene por defecto */
+
+* {
+margin: 0;
+}
+
+
 aside{
     background-color: #1CD1B0;
     font-size: 48px;
@@ -72,20 +79,21 @@ article{
 }
 
 .B{
-    background-image: url("img/batman.jpg");
+    background-image: url("../img/batman.jpg"); /* Al tener varias carpetas tenes que navegar dos veces para atras y seleccionar la imagen, en se agregan los "../"
     background-position: -400px 0px;
     background-size: 1100px;
+	/* yo lo probé así y funcionó bien */
 }
 
 .W{
-    background-image: url("img/wonderw.jpg");
+    background-image: url("../img/wonderw.jpg");
     background-position: -200px 0px;
     background-size: 800px;
 
 }
 
 .S{
-    background-image: url("img/superman.jpg");
+    background-image: url("../img/superman.jpg");
     background-position: -230px -40px;
     background-size: 900px;
 }
@@ -150,7 +158,6 @@ footer{
     color: #F3F3F3;
     font-size: 25px;
     position: relative;
-    text-align: center;
-    position: relative;
+    text-align: center; /* eliminé un position que estaba doble */
     bottom: 50px;
 }
